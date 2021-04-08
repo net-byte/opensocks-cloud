@@ -1,0 +1,6 @@
+apiVersion: beta/v1
+deploy:
+  skaffold: {}
+ingress:
+  - serviceName: opensocks-cloud 
+    port: 8080 
