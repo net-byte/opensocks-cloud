@@ -1,6 +1,9 @@
 apiVersion: beta/v1
 deploy:
-  dockerfile: {}  
+  docker:
+    file: Dockerfile
+    service: opensocks-cloud
+    port: 8080  
 ingress:
-  - serviceName: opensocks-cloud
+  - service: opensocks-cloud
     port: 8080
