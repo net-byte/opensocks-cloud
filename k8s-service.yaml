@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: opensocks-cloud
+spec:
+  ports:
+  - name: http
+    port: 8080
+  selector:
+    app: opensocks-cloud
