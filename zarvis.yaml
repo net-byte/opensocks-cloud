@@ -1,6 +1,10 @@
 apiVersion: beta/v1
 deploy:
-  skaffold: {}
+  docker:                          
+    file: Dockerfile
+    service: service
+    port: 8080
+ 
 ingress:
   - serviceName: opensocks-cloud 
     port: 8080 
