@@ -5,5 +5,5 @@ deploy:
     service: opensocks-cloud
     port: 8080  
 ingress:
-  - service: opensocks-cloud
+  - serviceName: opensocks-cloud
     port: 8080
