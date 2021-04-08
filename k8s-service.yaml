@@ -4,7 +4,7 @@ metadata:
   name: opensocks-cloud
 spec:
   ports:
-  - name: http
+  - protocol: TCP
     port: 8080
   selector:
     app: opensocks-cloud
