@@ -1,0 +1,10 @@
+{
+  "name": "opensocks-cloud",
+  "description": "opensocks-cloud",
+  "keywords": [
+    "opensocks",
+    "go"
+  ],
+  "website": "http://github.com/net-byte/opensocks-cloud",
+  "repository": "http://github.com/net-byte/opensocks-cloud"
+}
