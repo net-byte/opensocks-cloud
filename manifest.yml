@@ -1,0 +1,5 @@
+---
+applications:
+- name: opensocks-cloud
+  random-route: true
+  memory: 128M
