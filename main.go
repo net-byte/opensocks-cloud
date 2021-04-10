@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"os"
 
 	"github.com/net-byte/opensocks/config"
@@ -22,9 +23,8 @@ func main() {
 	}
 	config := config.Config{}
 	config.ServerMode = true
-	config.ServerAddr = ":" + port
+	config.ServerAddr = fmt.Sprintf(":%v", port)
 	config.Username = username
 	config.Password = password
-	config.Init()
 	server.Start(config)
 }
