@@ -13,18 +13,13 @@ func main() {
 	if port == "" {
 		port = "8080"
 	}
-	username := os.Getenv("_USERNAME")
-	if username == "" {
-		username = "admin"
-	}
-	password := os.Getenv("_PASSWORD")
-	if password == "" {
-		password = "pass@123456"
+	key := os.Getenv("KEY")
+	if key == "" {
+		key = "6w9z$C&F)J@NcRfUjXn2r4u7x!A%D*G-"
 	}
 	config := config.Config{}
 	config.ServerMode = true
 	config.ServerAddr = fmt.Sprintf(":%v", port)
-	config.Username = username
-	config.Password = password
+	config.Key = key
 	server.Start(config)
 }

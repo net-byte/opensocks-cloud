@@ -15,7 +15,6 @@ Deploy opensocks server to cloud
 
 ## Config Vars
 ```
-_USERNAME = admin
-_PASSWORD = 123456
+PORT = 8080
+KEY = fUjXn2r
 ```
-
