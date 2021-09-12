@@ -21,5 +21,6 @@ func main() {
 	config.ServerMode = true
 	config.ServerAddr = fmt.Sprintf(":%v", port)
 	config.Key = key
+	config.Init()
 	server.Start(config)
 }
