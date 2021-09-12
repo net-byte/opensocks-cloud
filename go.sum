@@ -2,5 +2,5 @@ github.com/gorilla/websocket v1.4.2 h1:+/TMaTYc4QFitKJxsQ7Yye35DkWvkdLcvGKqM+x0U
 github.com/gorilla/websocket v1.4.2/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
 github.com/inhies/go-bytesize v0.0.0-20201103132853-d0aed0d254f8 h1:RrGCja4Grfz7QM2hw+SUZIYlbHoqBfbvzlWRT3seXB8=
 github.com/inhies/go-bytesize v0.0.0-20201103132853-d0aed0d254f8/go.mod h1:KrtyD5PFj++GKkFS/7/RRrfnRhAMGQwy75GLCHWrCNs=
-github.com/net-byte/opensocks v1.4.6 h1:X/IlUxcBhD1Hs9jfXmY3kIMhzgT1sPEi3zyDhTRcNVw=
-github.com/net-byte/opensocks v1.4.6/go.mod h1:53jBD6li3FvfveCqV3JDefON5/EdkXoAts6aOG9HZW0=
+github.com/net-byte/opensocks v1.5.0 h1:SoTA/3/swl4V6J5bbzGXE9uKRysFWhzNIuHVCXYaZPg=
+github.com/net-byte/opensocks v1.5.0/go.mod h1:pMH/aAtqAu/AL5zlXdkwbRMlkFR3w5CBKUxVrjlEFZU=
