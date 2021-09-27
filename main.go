@@ -19,6 +19,7 @@ func main() {
 	}
 	config := config.Config{}
 	config.ServerMode = true
+	config.Obfuscate = false
 	config.ServerAddr = fmt.Sprintf(":%v", port)
 	config.Key = key
 	config.Init()
