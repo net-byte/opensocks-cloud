@@ -1,5 +1,5 @@
 module github.com/net-byte/opensocks-cloud
-
+// +heroku goVersion go1.17
 go 1.17
 
 require github.com/net-byte/opensocks v1.5.3
