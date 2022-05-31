@@ -17,9 +17,13 @@ func main() {
 	if key == "" {
 		key = "6w9z$C&F)J@NcRfUjXn2r4u7x!A%D*G-"
 	}
+	obfs := os.Getenv("OBFS")
+	if obfs == "" {
+		obfs = "false"
+	}
 	config := config.Config{}
 	config.ServerMode = true
-	config.Obfuscate = false
+	config.Obfs = (obfs == "true")
 	config.ServerAddr = fmt.Sprintf(":%v", port)
 	config.Key = key
 	config.Init()

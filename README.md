@@ -17,4 +17,5 @@ Deploy opensocks server to cloud
 ```
 PORT = 8080
 KEY = 123456
+OBFS = false
 ```
